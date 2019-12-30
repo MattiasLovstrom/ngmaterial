@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatSliderModule } from '@angular/material/slider'
 import { AutocompleateModule } from './automcompleate.module';
 import { DndModule } from './dnd.module';
+import { FormModule } from './form.module';
 
 @NgModule({
   declarations: [
@@ -15,9 +15,9 @@ import { DndModule } from './dnd.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatSliderModule,
     AutocompleateModule,
-    DndModule
+    DndModule,
+    FormModule
   ],
   exports: [
     ],
