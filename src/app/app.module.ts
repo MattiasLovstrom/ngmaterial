@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider'
 import { AutocompleateModule } from './automcompleate.module';
+import { DndModule } from './dnd.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AutocompleateModule } from './automcompleate.module';
     BrowserModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    AutocompleateModule
+    AutocompleateModule,
+    DndModule
   ],
   exports: [
     ],
